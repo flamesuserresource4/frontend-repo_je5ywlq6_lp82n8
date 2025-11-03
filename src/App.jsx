@@ -15,7 +15,7 @@ export default function App() {
 
         {/* Final CTA Section */}
         <section id="contact" className="relative overflow-hidden bg-white text-black">
-          <div className="absolute inset-0 -z-0 opacity-[0.06]" aria-hidden>
+          <div className="absolute inset-0 z-0 opacity-[0.06]" aria-hidden>
             <div className="h-full w-full bg-[radial-gradient(circle_at_center,black_1px,transparent_1px)] [background-size:16px_16px]" />
           </div>
           <div className="relative mx-auto max-w-7xl px-6 py-20">

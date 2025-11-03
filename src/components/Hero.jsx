@@ -4,11 +4,10 @@ import Spline from '@splinetool/react-spline';
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen w-full bg-black text-white">
-      {/* 3D Sneaker Background (interactive) */}
+      {/* 3D Background (interactive) */}
       <div className="absolute inset-0">
         <Spline
-          // Sneaker scene inspired by Nike-like hero interactions
-          scene="https://prod.spline.design/0qkRdtqvOB0fOkH0/scene.splinecode"
+          scene="https://prod.spline.design/Qe6dlWJktclXcUBS/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
         {/* Gradients for contrast; they don't block interaction */}
@@ -22,7 +21,7 @@ export default function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-zinc-200/90 backdrop-blur">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
-            Interactive 3D — drag to rotate
+            Interactive 3D — drag to explore
           </div>
 
           <h1 className="mt-5 text-4xl md:text-6xl font-black tracking-tight leading-[1.05]">
